@@ -6,33 +6,11 @@
     <meta charset="UTF-8">
     <title>HOLAMUNDO</title>
     
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-    <script src="libs/controller.js"></script>
-</head>
-<body ng-controller="firstcontroller">
    
-   {{"HOLA MUNDO: "+ nombre}} <br/>
-    
-    <input type="text" ng-model="nombre"> <br/><br/><br/>  
-    <!--Desde la vista tambien podemos cambiar el nombre del atributo del controller.js
-    
-    Esto se llama two way binding -->
-    
-    
-    <hr/>
-    <h1>Comentarios!!!!</h1>
-    <ul>
-        <li ng-repeat="miscomentarios in comentarios">
-            
-            {{miscomentarios.comentario}} -<strong>{{miscomentarios.username}}</strong>
-        </li>
-        
-    </ul><br/><br/><br/>
+</head>
+<body>
 
+<h1>cambio</h1>
 
- Nuevo Comentario: <input type="text" ng-model="nuevoComentario.comentario"> 
- Username: <input type="text" ng-model="nuevoComentario.username">
- <button ng-click="agregarComentario()">Agregar comentario</button>
- 
 </body>
 </html>

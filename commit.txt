@@ -1,0 +1,11 @@
+commit 012f297b09badfc806393bcf1ff2d70d9c2ad467
+Author: albeney <albeney90@gmail.com>
+Date:   Sun Aug 14 12:58:12 2016 +0200
+
+    COMENTARIO MODIFICADO
+
+commit 71827656c5f789ae6d2232445e18bd7e18e3e31e
+Author: albeney <albeney90@gmail.com>
+Date:   Sun Aug 14 12:47:57 2016 +0200
+
+    mi primer commit con git
